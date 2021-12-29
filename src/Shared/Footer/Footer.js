@@ -7,19 +7,19 @@ const Footer = () => {
         <div className='footer-wrapper'>
             <Row className='mx-0'>
                 <Col md={4}>
-                    <div className='flex'>
-                        <input type="text" placeholder='Email Address' />
+                    <div className='email-us'>
+                        <input type="text" placeholder='Email Address' className='email-input' />
                         <i className="fas fa-long-arrow-alt-right"></i>
                     </div>
-                    <div>
-                        <input type="checkbox" />
-                        <p>Subscribe to receive communications from Aesop about our products and services. By subscribing, you confirm you have read and accept our <span>Privacy Policy</span></p>
+                    <div className='checkbox-privacy'>
+                        <input type="checkbox" className='checkbox'/>
+                        <p>Subscribe to receive communications from Aesop about our products and services. By subscribing, you confirm you have read and accept our <span>Privacy Policy <i className="fas fa-external-link-alt ms-2"></i></span></p>
                     </div>
                 </Col>
                 <Col md={8}>
                     <Row className='mx-0'>
                         <Col md={4}>
-                            <h4>Orders and support</h4>
+                            <h6>Orders and support</h6>
                             <div className='hr'></div>
                             <ul>
                                 <li>Contact Us</li>
@@ -31,7 +31,7 @@ const Footer = () => {
                             </ul>
                         </Col>
                         <Col md={4}>
-                            <h4>Orders and support</h4>
+                            <h6>Orders and support</h6>
                             <div className='hr'></div>
                             <ul>
                                 <li>Contact Us</li>
@@ -43,7 +43,7 @@ const Footer = () => {
                             </ul>
                         </Col>
                         <Col md={4}>
-                            <h4>Orders and support</h4>
+                            <h6>Orders and support</h6>
                             <div className='hr'></div>
                             <ul>
                                 <li>Contact Us</li>
@@ -59,19 +59,16 @@ const Footer = () => {
             </Row>
             <Row className='mx-0 mt-5'>
                 <Col md={4}>
-                    <div className='flex'>
-                        <input type="text" placeholder='Email Address' />
-                        <i className="fas fa-long-arrow-alt-right"></i>
-                    </div>
-                    <div>
-                        <input type="checkbox" />
-                        <p>Subscribe to receive communications from Aesop about our products and services. By subscribing, you confirm you have read and accept our <span>Privacy Policy</span></p>
+                    <div className='footer-bottom-row'>
+                        <h6>Orders and support</h6>
+                        <div className='hr'></div>
+                        <p>All Aesop products are vegan, and we do not test our formulations or ingredients on animals. We are Leaping Bunny approved and a Certified B Corporation. Learn more</p>
                     </div>
                 </Col>
                 <Col md={8}>
                     <Row className='mx-0'>
                         <Col md={4}>
-                            <h4>Orders and support</h4>
+                            <h6>Orders and support</h6>
                             <div className='hr'></div>
                             <ul>
                                 <li>Contact Us</li>
@@ -83,7 +80,7 @@ const Footer = () => {
                             </ul>
                         </Col>
                         <Col md={4}>
-                            <h4>Orders and support</h4>
+                            <h6>Orders and support</h6>
                             <div className='hr'></div>
                             <ul>
                                 <li>Contact Us</li>
@@ -98,7 +95,7 @@ const Footer = () => {
                 </Col>
             </Row>
             <div className='hr'></div>
-            <p>Aesop</p>
+            <p className='copy-right'> &copy; Aesop</p>
         </div>
     );
 };
