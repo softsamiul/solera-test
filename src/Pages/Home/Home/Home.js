@@ -5,6 +5,7 @@ import FriendlyFaces from '../FriendlyFaces/FriendlyFaces';
 import GisftsExplore from '../GiftsExplore/GisftsExplore';
 import HeroSection from '../HeroSection/HeroSection';
 import SeasonalKits from '../SeasonalKits/SeasonalKits';
+import Testimonial from '../Testimonial/Testimonial';
 import TopSection from '../TopSection/TopSection';
 import TreaseredToken from '../TreaseredToken/TreaseredToken';
 
@@ -18,6 +19,7 @@ const Home = () => {
             <TreaseredToken></TreaseredToken>
             <SeasonalKits></SeasonalKits>
             <GisftsExplore></GisftsExplore>
+            <Testimonial></Testimonial>
             <Footer></Footer>
 
         </div>

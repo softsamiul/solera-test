@@ -1,0 +1,16 @@
+.testimonial-wrapper{
+    padding: 200px 0;
+
+}
+.testimonial-content-wrapper{
+    width:60%;
+    margin: 0 auto;
+}
+.testimonial-title{
+    font-size: 30px;
+    color: #333;
+}
+.testimonial-author{
+    font-size: 14px;
+    font-weight: 600;
+}
