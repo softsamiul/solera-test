@@ -1,0 +1,13 @@
+.section-wrapper{
+    padding-top: 130px;
+    background-color: #FFFEF2;
+    /* padding-bottom: 120px; */
+}
+.right-side{
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+.right-side p{
+    margin-top: 30px;
+}

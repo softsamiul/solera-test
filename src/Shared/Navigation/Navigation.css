@@ -1,0 +1,11 @@
+.navbar-container{
+    background-color: #FFFEF0;
+    color: #333;
+}
+.custom-navbar-container{
+    line-height: 1.4 !important;
+}
+.custom-nav-item{
+    font-weight: bold !important;
+    color: #333;
+}

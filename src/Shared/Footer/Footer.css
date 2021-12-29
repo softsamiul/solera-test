@@ -1,0 +1,17 @@
+.footer-wrapper{
+    background-color: #252525;
+    color: #fff;
+    padding-top: 60px;
+}
+.footer-wrapper ul{
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+.footer-wrapper .hr{
+    height: 1px;
+    background-color: #fff;
+}
+.footer-wrapper h4{
+    text-align: left;
+}
