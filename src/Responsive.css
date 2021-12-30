@@ -30,4 +30,10 @@
     .testimonial-wrapper {
         padding: 40px 0;
     }
+    .large-device-carousel{
+        display: none;
+    }
+    .mobile-device-carousel{
+        display: block;
+    }
 }

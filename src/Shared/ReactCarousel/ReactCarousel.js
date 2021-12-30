@@ -10,12 +10,23 @@ const ReactCarousel = () => {
 
         <div>
             <Row className='mx-0'>
-                <Carousel show={3.5} slide={1} swiping={true} >
+                <div className='large-device-carousel'>
+                    <Carousel show={3.5} slide={1} swiping={true} >
 
-                    {
-                        giftCarousel.map(singleGift => <ReactCarouselItem singleGift={singleGift} key={singleGift.title}></ReactCarouselItem>)
-                    }
-                </Carousel>
+                        {
+                            giftCarousel.map(singleGift => <ReactCarouselItem singleGift={singleGift} key={singleGift.title}></ReactCarouselItem>)
+                        }
+                    </Carousel>
+                </div>
+                <div className='mobile-device-carousel'>
+                    <Carousel show={1} slide={1} swiping={true} >
+
+                        {
+                            giftCarousel.map(singleGift => <ReactCarouselItem singleGift={singleGift} key={singleGift.title}></ReactCarouselItem>)
+                        }
+                    </Carousel>
+                </div>
+                
                 <div className='separator-div'></div>
             </Row>
         </div>
