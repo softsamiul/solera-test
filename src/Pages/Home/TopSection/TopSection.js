@@ -8,7 +8,7 @@ const TopSection = () => {
             {/* Top Section start */}
             <Slide top>
                 <div className="top-section-wrapper">
-                <a href="/src/index.js" className='top-message'>Enjoy complimentary shipping on all Hong Kong and Macau orders. Due to a high volume of orders, deliveries may take longer than usual to arrive. <i className="fas fa-plus ps-2" style={{fontSize:'14px'}}></i></a>
+                <p className='top-message'>Enjoy complimentary shipping on all Hong Kong and Macau orders. Due to a high volume of orders, deliveries may take longer than usual to arrive. <i className="fas fa-plus ps-2" style={{fontSize:'14px'}}></i></p>
                 </div>
             </Slide>
             
