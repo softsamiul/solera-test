@@ -10,6 +10,7 @@ import TreaseredToken from '../TreaseredToken/TreaseredToken';
 import FriendlyFaces_indispensables_data from '../../../Datas/FriendlyFaces_indispensables_data';
 import Indispensables from '../Indispensables/Indispensables';
 import ThoughtfulOrreing from '../ThoughtfulOffreing/ThoughtfulOrreing';
+import StoreLocator from '../StoreLocator/StoreLocator';
 
 const Home = () => {
     const friendlyFacesData = FriendlyFaces_indispensables_data;
@@ -26,6 +27,7 @@ const Home = () => {
             <SeasonalKits></SeasonalKits>
             <GisftsExplore></GisftsExplore>
             <ThoughtfulOrreing></ThoughtfulOrreing>
+            <StoreLocator></StoreLocator>
             <Testimonial></Testimonial>
             <Footer></Footer>
 

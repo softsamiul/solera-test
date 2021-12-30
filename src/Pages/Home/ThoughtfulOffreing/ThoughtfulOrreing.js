@@ -11,14 +11,15 @@ const ThoughtfulOrreing = () => {
         <div className='section-wrapper'>
             <Container>
                 <h2 className='thoughtful-title mb-5'>Thoughtful offerings </h2>
-                <Row>
+            </Container>
+                <Row className='m-0'>
                     <Carousel show={3} slide={1} swiping={true} >
                         {
                             thoughtfulOffers.map(singleGift => <ReactCarouselItem singleGift={singleGift} key={singleGift.title}></ReactCarouselItem>)
                         }
                     </Carousel>
+                    <div className='separator-div'></div>
                 </Row>
-            </Container>
         </div>
     );
 };

@@ -1,0 +1,33 @@
+/*----------------------------
+    Responsive styles
+-------------------------------*/
+
+/* Mobile devices */
+@media (max-width:768px){
+    .top-message:hover{
+        text-decoration: none;
+    }
+    .navbar-nav{
+        text-align: left !important;
+        padding-left: 20px !important;
+    }
+    .mt-150{
+        margin-top: 20px;
+    }
+    .btn-design{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .cover-main-img {
+        height: 270px;
+    }
+    .cover-lite{
+        display: none;
+    }
+    .section-wrapper {
+        padding-top: 30px;
+    }
+    .testimonial-wrapper {
+        padding: 40px 0;
+    }
+}

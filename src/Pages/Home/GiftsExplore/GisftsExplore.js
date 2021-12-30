@@ -7,7 +7,7 @@ const GisftsExplore = () => {
     const gifts = GiftsData;
 
     return (
-        <div className='gift-explore-section'>
+        <div className='gift-explore-section section-wrapper'>
             <Row className='mx-0'>
                 {
                     gifts.map(gift => <Col md={6} key={gift.title}>

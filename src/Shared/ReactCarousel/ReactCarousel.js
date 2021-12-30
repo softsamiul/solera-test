@@ -9,7 +9,7 @@ const ReactCarousel = () => {
     return (
 
         <div>
-            <Row>
+            <Row className='mx-0'>
                 <Carousel show={3.5} slide={1} swiping={true} >
 
                     {
