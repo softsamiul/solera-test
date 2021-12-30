@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
+import TreasedVideo from '../../../assets/videos/video2.mp4';
 
 const TreaseredToken = () => {
     return (
@@ -15,7 +16,7 @@ const TreaseredToken = () => {
                 </Col>
                 <Col md={7}>
                     <video style={{width:'100%'}} autoPlay muted loop>
-                        <source src="https://vod-progressive.akamaized.net/exp=1640825989~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F2787%2F25%2F638938995%2F2928070564.mp4~hmac=d1c859cd525a635c86918561deba2a960d8bff41ad4c839a25cb1879431affab/vimeo-prod-skyfire-std-us/01/2787/25/638938995/2928070564.mp4?filename=Gift+Kits+2021-22+Campaign+Motion+ACT+5_Res_Handwash_landscape.mov.mp4" type="video/mp4" />
+                        <source src={TreasedVideo} />
                     </video>
                 </Col>
                 

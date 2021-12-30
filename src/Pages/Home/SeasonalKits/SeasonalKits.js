@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import ReactCarousel from '../../../Shared/ReactCarousel/ReactCarousel';
 import './SeasonalKits.css'
 
 const SeasonalKits = () => {
@@ -17,7 +18,7 @@ const SeasonalKits = () => {
             </Row>
             <Row className='my-5 mx-0'>
                 <Container>
-                Carousel here
+                    <ReactCarousel></ReactCarousel>
                 </Container>
             </Row>
         </div>

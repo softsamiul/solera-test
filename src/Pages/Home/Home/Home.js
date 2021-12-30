@@ -9,12 +9,10 @@ import TopSection from '../TopSection/TopSection';
 import TreaseredToken from '../TreaseredToken/TreaseredToken';
 import FriendlyFaces_indispensables_data from '../../../Datas/FriendlyFaces_indispensables_data';
 import Indispensables from '../Indispensables/Indispensables';
+import ThoughtfulOrreing from '../ThoughtfulOffreing/ThoughtfulOrreing';
 
 const Home = () => {
     const friendlyFacesData = FriendlyFaces_indispensables_data;
-
-    console.log(friendlyFacesData[0].friendlyFacesData)
-
     return (
         <div>
             <TopSection></TopSection>
@@ -27,6 +25,7 @@ const Home = () => {
             {<Indispensables data={friendlyFacesData[1].IndispensablesData}></Indispensables>}
             <SeasonalKits></SeasonalKits>
             <GisftsExplore></GisftsExplore>
+            <ThoughtfulOrreing></ThoughtfulOrreing>
             <Testimonial></Testimonial>
             <Footer></Footer>
 
