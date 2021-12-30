@@ -3,6 +3,7 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 import './Navigation.css'
 const Navigation = () => {
     return (
+        
         <Navbar collapseOnSelect expand="lg" className='navbar-container'>
             <Container>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" className='custom-navbar-container' style={{lineHeight:'1.4'}}/>
@@ -27,7 +28,7 @@ const Navigation = () => {
                     </Nav>
                 </Navbar.Collapse>
             </Container>
-            </Navbar>
+        </Navbar>
     );
 };
 
