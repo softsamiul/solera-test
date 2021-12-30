@@ -1,16 +1,15 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
-import './FriendlyFaces.css'
 
-const FriendlyFaces = ({data}) => {
+const Indispensables = ({data}) => {
     const {media, title, actionText, desc} = data;
     return (
         <div>
             <Row className='section-wrapper mx-0' >
                 <Col md={7}>
-                    <video style={{width:'100%'}} autoPlay muted loop>
-                        <source src={media} type="video/mp4" />
-                    </video>
+                    <div>
+                        <img src={media} alt="" className='img-fluid' />
+                    </div>
                 </Col>
                 <Col md={5}>
                     <div className='right-side'>
@@ -25,4 +24,4 @@ const FriendlyFaces = ({data}) => {
     );
 };
 
-export default FriendlyFaces;
+export default Indispensables;
